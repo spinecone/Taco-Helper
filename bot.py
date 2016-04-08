@@ -151,6 +151,14 @@ def tweet(message):
   auth.set_access_token(secrets.access_token, secrets.access_token_secret)
   api = tweepy.API(auth)
   auth.secure = True
+
+  search_phrases = ["\"I'm so high\"", "\"so high rn\"", "\"high af\"", "\"so blazed\""]
+  if random.randint(1, 5) == 1:
+    phrase = random.choice(search_phrases)
+    taco_recipient = api.search(q=phrase, rpp=1, count=1)[0]
+    retweet_url = " https://twitter.com/" + taco_recipient.user.screen_name + "/status/" + str(taco_recipient.id)
+    message += retweet_url
+
   print("Posting message {}".format(message))
   api.update_status(status=message)
 
