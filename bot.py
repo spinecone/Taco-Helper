@@ -29,7 +29,7 @@ fillers = [
     'Nacho Cheese',
     'Bean',
     'Black Bean',
-    'Rice',
+    'Seasoned Rice',
     'Ground Beef',
     'Shredded Chicken',
     'Chicken',
@@ -55,6 +55,7 @@ meals = [
     'Burrito',
     'Gordita',
     'Chalupa',
+    'Triplelupa', # https://www.tacobell.com/food/specialties/triplelupa
     'Crunchwrap',
     'Quesadilla',
     'Griller',
