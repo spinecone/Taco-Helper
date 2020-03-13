@@ -55,6 +55,7 @@ meals = [
     'Burrito',
     'Gordita',
     'Chalupa',
+    'Triplelupa', # https://www.tacobell.com/food/specialties/triplelupa
     'Crunchwrap',
     'Quesadilla',
     'Griller',
