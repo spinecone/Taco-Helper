@@ -29,7 +29,7 @@ fillers = [
     'Nacho Cheese',
     'Bean',
     'Black Bean',
-    'Rice',
+    'Seasoned Rice',
     'Ground Beef',
     'Shredded Chicken',
     'Chicken',
